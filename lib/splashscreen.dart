@@ -35,21 +35,21 @@ class _SplashScreenState extends State<SplashScreen> {
               bottom: -10,
               child: Image.asset("assets/images/splash3.png")),
             Positioned(
-              bottom: 190,
-              right: 40,
+              bottom: resHeight(190, sHeight),,
+              right: resHeight(40, sHeight),,
               child: Image.asset("assets/images/splash5.png")),
            
             Positioned(
-              right: 140,
-              bottom: 200,
+              right: resHeight(140, sHeight),,
+              bottom: resHeight(200, sHeight),,
               child: Image.asset("assets/images/splash4.png")),
             Positioned(
               right: -1,
-              bottom: 100,
+              bottom: resHeight(100, sHeight),,
               child: Image.asset("assets/images/splash2.png")),
             Positioned(
               bottom: resHeight(390, sHeight),
-              top: 190,
+              top: resHeight(190, sHeight),,
               // height: 60,
               left: 00,
               child: Image.asset("assets/images/splash1.png")),
